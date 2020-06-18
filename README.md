@@ -1,7 +1,5 @@
 # Library-Management-System
 
-Youtube Link :- https://www.youtube.com/watch?v=bqpamkKqzPo
-
 This is Library Management project which uses JAVA (GUI and Backend) and MYSQL (Database).
 
 Scope and Objective of Project:-
@@ -25,6 +23,4 @@ MYSQL has been used for database in this project. It contains 4 tables
     •	Student -This table contains fields like Student_ID, Name, Course, Branch and Year. 
     •	Record  -This table contains fields like Return_Date, ISBN, Student_id and Issue_Date.
     
-Report has been uploaded into repository and Youtube Description, you can refer it.
 
-Youtube Link :- https://www.youtube.com/watch?v=bqpamkKqzPo
