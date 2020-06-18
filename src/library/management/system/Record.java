@@ -19,7 +19,7 @@ public class Record extends javax.swing.JFrame {
         
         try{
             Class.forName("com.mysql.jdbc.Driver");	   
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system", "root", "root");   
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system?useSSL=false", "root", "root");   
         
             PreparedStatement ps = c.prepareStatement("select s.SID, s.Name, b.ISBN, b.Title, r.IssueDate, r.ReturnDate from Student s, Book b, Record r where r.SID=s.SID AND r.ISBN=b.ISBN; ");
             ResultSet set = ps.executeQuery();

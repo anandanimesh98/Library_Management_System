@@ -27,7 +27,7 @@ public class IssueBook extends javax.swing.JFrame {
         
         try{
             Class.forName("com.mysql.jdbc.Driver");	   
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_management_system?useSSL=false", "root", "root");
         }
         catch(Exception e){e.printStackTrace();}
     }
